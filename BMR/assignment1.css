@@ -1,0 +1,38 @@
+body, html {
+  margin-left:auto;
+  margin-right:auto;
+  height: 536px;
+  width:960px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align:center;
+}
+
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+ 
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+
+.tabcontent {
+  color: white;
+  padding: 30px 30px;
+  height: 100%;
+  display: none;
+}
+
+#metric {background-color: skyblue;}
+#imperial {background-color: orange;}
