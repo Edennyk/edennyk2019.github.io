@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel='stylesheet' href='style.css' type='text/css' />
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form name='registration'>
+        <div class="container">
+            <div class="register">
+                <h1>Membership Registration</h1>
+                <div class="label">First Name</div>
+                <div class="form">
+                    <input type="text" name="fName" placeholder="First Name">
+                </div>
+                <div class="label">Last Name</div>
+                <div class="form">
+                    <input type="text"  name="lName"  placeholder="Last Name">
+                </div>
+                <div class="label">Password</div>
+                <div class="form">
+                    <input type="Password" name="password"  placeholder="Password">
+                </div>
+                <div class="label">Confirm Password</div>
+                <div class="form">
+                    <input type="Password" name="confirmPass"  placeholder="Confirm Password">
+                </div>
+                <div class="label">Email</div>
+                <div class="form">
+                    <input type="email" name="email"  placeholder="Email">
+                </div>
+                <div class="label">Address</div>
+                <div class="form">
+                    <input type="address" name="address"  placeholder="Address">
+                </div>
+                <div class="label">Provience</div>
+                <div class="form">
+                    <select type="provience" name="province"  placeholder="province">
+                        <option selected="" value="Default">(Please select a province)</option>
+                        <option value="QC">QC</option>
+                        <option value="ON">ON</option>
+                        <option value="MN">MN</option>
+                        <option value="SK">SK</option>
+                        <option value="AB">AB</option>
+                        <option value="BC">BC</option>
+                    </select>
+                </div>
+                <input type="submit" name="submit" id="signUp" value="Register Now"  onClick="return validation();"/>
+                <input type="reset" name="reset" id="clear" value="Clear Form" onClick="return reset();" />
+            </div>
+            <div class="footer">
+                <p><b>&copy; Centennial college COMP125 Assignmetn4 NAYUL KIM</b></p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
