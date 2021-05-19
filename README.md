@@ -1,4 +1,4 @@
-# edennyk.github.io
+# edennyk2019.github.io
 EDEN Portfolio 2019 version
 
 * All academic projects 
